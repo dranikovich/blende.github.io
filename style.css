@@ -1,0 +1,191 @@
+/* CSS */
+.profile_img{
+    width: 30%;
+    border-radius: 100px;
+}
+.bgCool{
+    background-image: url(./img/images.jfif);
+}
+*
+{
+    box-sizing: border-box;
+}
+.vh100{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainH{
+    color: rgb(39, 36, 32);
+    text-align: center;
+}
+.container{
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+body, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+form h3, form input, form button{
+    width: 75%;
+    margin-top: 20px;
+}
+form input{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-color: azure;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+form button{
+    transition: 0.5s;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background: radial-gradient(rgb(131, 131, 131),rgb(0, 0, 0), rgb(255, 12, 12));
+    border-radius: 10px;
+    color: rgb(235, 235, 235);
+}
+form button:hover{
+    transition: 1s;
+    background-color: rgb(233, 152, 0);
+    color: rgb(255, 255, 255);
+}
+.formAuth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Новая страничка */
+.section{
+    background-color: brown;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    margin: -20px;
+}
+.header a{
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.header a:hover{
+    color: rgb(218, 218, 218);
+    background-color: rgb(138, 34, 34);
+    box-shadow: 0 2px 20px rgb(138, 34, 34);
+}
+.header .item{
+    margin-left: 20px;
+    height: 40px;
+    height: 100%;
+}
+
+
+
+/* здеся у нас начинается каталог */
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.row .item{
+    background-color: aliceblue;
+    transition: 2s;
+    width: 31%;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 0 rgb(236, 71, 71);
+}
+.row .item:hover{
+    transition: 1s;
+    box-shadow: 0 15px rgb(131, 6, 6);
+}
+.row .item:hover .inner h3{
+    transition: 1s;
+    color: blue;
+}
+.row .item img{
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.row .item .inner{
+    padding: 0 10px 10px 10px;
+}
+.row .item .inner p{
+    color: rgb(106, 106, 106);
+    text-align: center;
+    font-size: 12px;
+}
+.row .item .inner h3{
+    transition: 2s;
+    color: rgb(138, 34, 34);
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+#content{
+    background-image: url("https://img.freepik.com/free-vector/comic-style-background-in-flat-design_23-2148793184.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section.title{
+    color: wheat;
+    background: linear-gradient(to right, rgb(255, 10, 71), rgb(17, 0, 255));
+}
+
+
+/* блог */
+#blog{
+    background: orange;
+}
+#blog .item{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#blog .item .top{
+    background-color: rgb(255, 200, 48);
+    color: rgb(128, 78, 25);
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0 0 ;
+    padding: 10px;
+}
+#blog .item h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.video{
+    width: 100%;
+    height: 600px;
+}
+
+#carouselExampleControls .carousel-inner img{
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
